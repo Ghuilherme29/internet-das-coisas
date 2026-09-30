@@ -12,7 +12,7 @@ except:
     pass   
 # ------------------------------------------------------
 
-#Funçãod do cálculo ----------------
+#Função do cálculo ----------------
 def calcular_gasto():
     try:
         distancia = float(Distancia_ViagemKM.get().replace(',', '.'))
